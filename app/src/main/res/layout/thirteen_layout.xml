@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="125dp"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/eTuserInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/btn01"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:textSize="25sp">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvWhatisyourname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="         Please leave your email,we will get back to you when we are done the processing the data
+
+        "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="124dp"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
